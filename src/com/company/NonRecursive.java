@@ -11,25 +11,6 @@ public class NonRecursive
             count++;
         } while (count < n);
         return fact;
-
-
-       /* while (count<n) {
-            (fact=fact*(count+1);
-            count++);
-            return fact;
-
-
-/*
-            while (x<=n)
-            {
-                    y = y*x;
-            System.out.println("Factorial=" + y);
-            x++;
-            );
-            System.out.println(y);
-            }
-*/
-
     }
 
 }
