@@ -13,8 +13,13 @@ public class NonRecursive
         return fact;
 
 
-        /*while (x<1) {
-            System.out.println("Factorial=1");
+       /* while (count<n) {
+            (fact=fact*(count+1);
+            count++);
+            return fact;
+
+
+/*
             while (x<=n)
             {
                     y = y*x;
